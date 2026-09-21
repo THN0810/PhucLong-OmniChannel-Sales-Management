@@ -51,7 +51,7 @@ The two projects are presented together as a portfolio case study to demonstrate
 
 ---
 
-##  2. My Contribution
+##  2. Key Project Outcomes
 
 | Academic Project | Key Deliverables & Responsibilities |
 | :--- | :--- |
