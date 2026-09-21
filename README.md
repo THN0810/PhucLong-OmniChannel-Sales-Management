@@ -1,8 +1,8 @@
 # Phuc Long Omni-Channel Sales & Loyalty Management System
 **Academic Business Analysis & SQL Server Database Design Case Study**
 
-> 📄 **Executive Reports:** [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf) | [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
-> 💻 **Database Scripts:** [Explore Master T-SQL Source Code](./02-Database-Design/)
+> **Executive Reports:** [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf) | [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
+> **Database Scripts:** [Explore Master T-SQL Source Code](./02-Database-Design/)
 > 
 > **Academic Institution:** University of Finance - Marketing (UFM), Ho Chi Minh City  
 > **Coursework Synthesis:** Business Analysis & Database Management Systems (SQL Server)  
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Executive Summary
+##  Executive Summary
 This portfolio case study combines two academic projects developed around the same Phuc Long sales-management context for the Business Analysis and Database Management Systems courses.
 
 Although both projects share the same business domain, they were developed with different scopes and objectives:
@@ -23,7 +23,7 @@ The two projects are presented together as a portfolio case study to demonstrate
 
 ---
 
-## 🎯 1. Requirements Analysis & Process Modeling (BABOK Concepts)
+##  1. Requirements Analysis & Process Modeling (BABOK Concepts)
 
 ### 1.1 Business Architecture & Problem Definition
 *   **AS-IS State Analysis:** Identified potential bottlenecks where POS at physical stores, Mobile App, and third-party delivery platforms operate in silos, requiring manual Excel exports for revenue reconciliation and creating inconsistent loyalty tracking across channels.
@@ -51,7 +51,7 @@ The two projects are presented together as a portfolio case study to demonstrate
 
 ---
 
-## 🎯 2. My Contribution
+##  2. My Contribution
 
 | Academic Project | Key Deliverables & Responsibilities |
 | :--- | :--- |
@@ -60,7 +60,7 @@ The two projects are presented together as a portfolio case study to demonstrate
 
 ---
 
-## 🗄️ 3. Relational Database Architecture (QLBanHangPhucLong)
+##  3. Relational Database Architecture (QLBanHangPhucLong)
 
 ### 3.1 Database Overview
 *   **Database Engine:** Microsoft SQL Server 2022
@@ -92,7 +92,7 @@ The two projects are presented together as a portfolio case study to demonstrate
 
 ---
 
-## ⚙️ 4. Database Implementation
+##  4. Database Implementation
 
 ### 4.1 Database Indexing
 Implemented Non-Clustered Indexes on high-frequency query targets (`KhachHang`, `PhieuDatHang`, `CTHoaDon`).
@@ -106,7 +106,7 @@ Implemented database stored procedures to encapsulate core operational workflows
 
 ---
 
-## 🔒 5. Business Rules, Audit Logging & Role-Based Access Control (RBAC)
+##  5. Business Rules, Audit Logging & Role-Based Access Control (RBAC)
 
 ### 5.1 Automated Business Rule Triggers
 *   `tgr_TheThanhVien_KhongChongLanThoiGian`: Prevents overlapping effective date ranges for loyalty cards belonging to the same customer.
@@ -132,7 +132,7 @@ Configured 8 System Roles mapping organizational responsibilities to database ac
 
 ---
 
-## 📂 6. Repository Layout
+##  6. Repository Layout
 
 | Directory / File Path | Asset Type | Description & Repository Contents |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@ Configured 8 System Roles mapping organizational responsibilities to database ac
 
 ---
 
-## 🔮 7. Potential Enhancements
+##  7. Potential Enhancements
 To build upon the current system design and database implementation, several practical enhancements are identified for future iteration:
 *   **Store Staff Mobile Interface:** A mobile-responsive web interface to assist store staff with real-time stock lookups and order verification.
 *   **Automated Customer Communications:** Integration with email or Zalo OA messaging gateways to send digital receipts and order status notifications.
@@ -151,5 +151,5 @@ To build upon the current system design and database implementation, several pra
 
 ---
 
-## 🎓 Academic Attribution
+##  Academic Attribution
 This project was developed as a case study for the Business Analysis and SQL Server Database Management System courses at the University of Finance - Marketing (UFM) under the academic guidance of ThS. Trương Đình Hải Thụy and ThS. Trần Minh Tùng.
