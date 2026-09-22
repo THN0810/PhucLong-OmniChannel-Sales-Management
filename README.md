@@ -20,7 +20,7 @@
 Executive Summary
 This portfolio case study combines two academic projects developed around a **hypothetical omnichannel sales scenario** for Phuc Long Coffee & Tea. 
 
-> ** Academic Disclaimer (Business Assumption):** *This project is a conceptual simulation based on business assumptions and common retail industry pain points. It does not reflect an internal audit of Phuc Long's actual proprietary systems. The operational bottlenecks addressed—such as disconnected POS and online channels (silos), manual data reconciliation, and fragmented loyalty tracking—are hypothetical problems constructed specifically to demonstrate problem-solving capabilities in systems analysis.*
+> **Academic Disclaimer (Business Assumption):** *This project is a conceptual simulation based on business assumptions and common retail industry pain points. It does not reflect an internal audit of Phuc Long's actual proprietary systems. The operational bottlenecks addressed—such as disconnected POS and online channels (silos), manual data reconciliation, and fragmented loyalty tracking—are hypothetical problems constructed specifically to demonstrate problem-solving capabilities in systems analysis.*
 
 Although both projects share this conceptual business domain, they were developed with different scopes and objectives:
 *   **Business Analysis Project:** Focused on customer-facing sales activities across POS, mobile app, and third-party delivery platforms, with emphasis on requirements analysis, business process modeling, and data flow analysis to resolve the assumed omnichannel silos.
