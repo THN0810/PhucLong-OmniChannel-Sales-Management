@@ -3,10 +3,10 @@
 
 > **Executive Reports:**
 > 
-> [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf)
-> [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
+> [View BA Project Report (PDF)](Business_Analysis/BA_Report.pdf)
+> [View Database Design Report (PDF)](Business_Analysis/BA_Report.pdf)
 > 
-> **Database Scripts:** [Explore SQL Source Code](./02-Database-Design/)
+> **Database Scripts:** [Explore SQL Source Code](Database_Design/Full_Database_Script.sql)
 > 
 > **Academic Institution:** University of Finance - Marketing (UFM), Ho Chi Minh City  
 > **Coursework Synthesis:** Business Analysis & Database Management Systems (SQL Server)  
@@ -50,10 +50,10 @@ Although both projects share this conceptual business domain, they were develope
 *   **Data Flow Diagrams (DFD):** Built Context Level DFD, Level 0 DFD, and Level 1 DFDs.
 *   **Data Dictionary (D1 – D13):** Defined data structures for POS Data (D1), Online Orders (D2), Invoices (D3), Loyalty Profiles (D4), Delivery Records (D5), Partner API Logs (D9), Order ID Mapping (D10), Store KPIs (D11), and Low-Stock Alerts (D12).
 
-![BPMN TO-BE Workflow](./docs/images/phuclong-bpmn-tobe.png)
-> 📸 **Image 01:** TO-BE BPMN 2.0 Process Model unifying POS, App, and Partner API workflows.
-> 🔍 **Process Design:** [View High-Res BPMN Diagram](./01-Business-Analysis/)
-
+![BPMN TO-BE Workflow](images/TOBE.png)
+> TO-BE BPMN 2.0 Process Model unifying POS, App, and Partner API workflows.
+> **Process Design:** [View High-Res BPMN Diagram(draw.io)](Business_Analysis/PhucLong_BA_Models.drawio)
+> 
 ---
 
 ##  2. Key Project Outcomes
@@ -82,9 +82,9 @@ Although both projects share this conceptual business domain, they were develope
 |  **Sales & Billing** | `PhieuDat`, `CTPhieuDat`, `HoaDon`, `CTHoaDon`, `PhieuGiao`, `CTPGH` |
 |  **Security & Audit** | `AuditLog` |
 
-![Physical ERD Diagram](./docs/images/phuclong-physical-erd.png)
-> 📸 **Image 02:** Physical ERD Diagram mapping 34 tables in SQL Server 3NF.
-> 💾 **Code Inspection:** [View Master T-SQL Scripts](./02-Database-Design/QLBanHangPhucLong.sql)
+![Physical ERD Diagram](images/physical.png)
+> Physical ERD Diagram mapping 34 tables in SQL Server 3NF.
+> **Code Inspection:** [View Master T-SQL Scripts](Database_Design/Full_Database_Script.sql)
 
 ---
 
