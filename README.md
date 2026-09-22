@@ -1,7 +1,11 @@
 # Phuc Long Omni-Channel Sales & Loyalty Management System
 **Academic Business Analysis & SQL Server Database Design Case Study**
 
-> **Executive Reports:** [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf) | [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
+> **Executive Reports:**
+> 
+> [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf)
+> [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
+> 
 > **Database Scripts:** [Explore Master T-SQL Source Code](./02-Database-Design/)
 > 
 > **Academic Institution:** University of Finance - Marketing (UFM), Ho Chi Minh City  
