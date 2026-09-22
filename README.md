@@ -131,6 +131,10 @@ Configured 8 System Roles mapping organizational responsibilities to database ac
 | `01-Business-Analysis/` | BA Requirements | BRD document, BPMN process models, 2-level DFDs, and Requirement Traceability Matrix (RTM). |
 | `02-Database-Design/` | SQL Database | Relational ERD model, database schema initialization, stored procedures, triggers, and RBAC scripts. |
 
+## AI-Assisted Development
+
+AI tools were used as supporting tools during parts of the project, particularly for SQL implementation, debugging, and documentation refinement. The business analysis scope, process models, database structure, and final project outputs were reviewed and adapted by the author.
+
 ---
 
 ##  7. Potential Enhancements
