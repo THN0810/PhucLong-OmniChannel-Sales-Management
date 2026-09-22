@@ -6,7 +6,7 @@
 > [View BA Project Report (PDF)](./01-Business-Analysis/BA_Report.pdf)
 > [View Database Design Report (PDF)](./02-Database-Design/DB_Report.pdf)
 > 
-> **Database Scripts:** [Explore Master T-SQL Source Code](./02-Database-Design/)
+> **Database Scripts:** [Explore SQL Source Code](./02-Database-Design/)
 > 
 > **Academic Institution:** University of Finance - Marketing (UFM), Ho Chi Minh City  
 > **Coursework Synthesis:** Business Analysis & Database Management Systems (SQL Server)  
@@ -17,13 +17,14 @@
 ---
 
 ##  Executive Summary
-This portfolio case study combines two academic projects developed around the same Phuc Long sales-management context for the Business Analysis and Database Management Systems courses.
+Executive Summary
+This portfolio case study combines two academic projects developed around a **hypothetical omnichannel sales scenario** for Phuc Long Coffee & Tea. 
 
-Although both projects share the same business domain, they were developed with different scopes and objectives:
-*   **Business Analysis Project:** Focused on customer-facing sales activities across POS, mobile app, and third-party delivery platforms, with emphasis on requirements analysis, business process modeling, and data flow analysis.
+> ** Academic Disclaimer (Business Assumption):** *This project is a conceptual simulation based on business assumptions and common retail industry pain points. It does not reflect an internal audit of Phuc Long's actual proprietary systems. The operational bottlenecks addressed—such as disconnected POS and online channels (silos), manual data reconciliation, and fragmented loyalty tracking—are hypothetical problems constructed specifically to demonstrate problem-solving capabilities in systems analysis.*
+
+Although both projects share this conceptual business domain, they were developed with different scopes and objectives:
+*   **Business Analysis Project:** Focused on customer-facing sales activities across POS, mobile app, and third-party delivery platforms, with emphasis on requirements analysis, business process modeling, and data flow analysis to resolve the assumed omnichannel silos.
 *   **SQL Server Database Project:** Extended the business context into a broader operational database scope covering organizational structure, employees, branches, products, inventory, customers, sales, billing, and database access control.
-
-The two projects are presented together as a portfolio case study to demonstrate how business analysis and process modeling can be connected with relational database design and implementation.
 
 ---
 
