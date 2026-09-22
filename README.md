@@ -63,29 +63,20 @@ The two projects are presented together as a portfolio case study to demonstrate
 ##  3. Relational Database Architecture (QLBanHangPhucLong)
 
 ### 3.1 Database Overview
+### 3.1 Database Overview
 *   **Database Engine:** Microsoft SQL Server 2022
 *   **Database Name:** `QLBanHangPhucLong`
 *   **Schema Scale:** 34 physical tables (including `AuditLog`) structured across 6 core operational domains:
 
-```text
-                                +-----------------------------------+
-                                |      QLBanHangPhucLong (DB)       |
-                                +-----------------------------------+
-                                                  |
-     +------------------+------------------+------+------------------+------------------+
-     |                  |                  |                         |                  |
-+----+-----+       +----+-----+       +----+-----+             +-----+----+       +-----+----+
-|   ORG &  |       | CATALOG &|       | INVENTORY|             | CUSTOMER |       |   SALES  |
-| PERSONNEL|       | PRICING  |       | & WAREHS |             | & LOYALTY|       | & BILLING|
-+----------+       +----------+       +----------+             +----------+       +----------+
-| ChiNhanh |       | DonViTinh|       | Kho      |             | LoaiKH   |       | PhieuDat |
-| PhongBan |       | NhomSP   |       | TonKho   |             | KhachHang|       | CTPhieuDat|
-| ChucVu   |       | LoaiSP   |       | PhieuXuat|             | TheThanhV|       | HoaDon   |
-| NhanVien |       | SanPham  |       | CTPX     |             | NganHang |       | CTHoaDon |
-| TaiKhoan |       | BienDongG|       +----------+             +----------+       | PhieuGiao|
-| VaiTro   |       +----------+                                                   | CTPGH    |
-+----------+                                                                      +----------+
-```
+|  Operational Domain |  Tables Included |
+| :--- | :--- |
+|  **Org & Personnel** | `ChiNhanh`, `PhongBan`, `ChucVu`, `NhanVien`, `TaiKhoan`, `VaiTro` |
+|  **Catalog & Pricing** | `DonViTinh`, `NhomSP`, `LoaiSP`, `SanPham`, `BienDongG` |
+|  **Inventory & Warehs** | `Kho`, `TonKho`, `PhieuXuat`, `CTPX` |
+|  **Customer & Loyalty** | `LoaiKH`, `KhachHang`, `TheThanhV`, `NganHang` |
+|  **Sales & Billing** | `PhieuDat`, `CTPhieuDat`, `HoaDon`, `CTHoaDon`, `PhieuGiao`, `CTPGH` |
+|  **Security & Audit** | `AuditLog` |
+
 ![Physical ERD Diagram](./docs/images/phuclong-physical-erd.png)
 > 📸 **Image 02:** Physical ERD Diagram mapping 34 tables in SQL Server 3NF.
 > 💾 **Code Inspection:** [View Master T-SQL Scripts](./02-Database-Design/QLBanHangPhucLong.sql)
